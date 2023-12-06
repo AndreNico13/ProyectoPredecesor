@@ -4,7 +4,7 @@ using namespace std;
 int lista[MAX]; //arreglo para almacenar los elementos que forman la solución
 int y=0; //variable para hacer el seguimiento a los elementos de lista[];
 int x=0; //contador de soluciones encontradas
-
+/*Andrea Ambrocio*/
 int valida (int k, int n, int predecesor[], int proyecto[])//función que me indica si mi predecesor está ya incluido en mi lista solución (lista[])
 {
 	int contador_predecesores=0; //contador de predecesores encontrados
